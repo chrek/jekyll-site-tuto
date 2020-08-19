@@ -1,19 +1,33 @@
-# jekyll-site-tuto
- 
-Moved from Asus to Ubuntu Vostro on 18/08/2020
+# Jekyll Site Tuto
 
-Uses Liquid as the templating language
+Website (blog with posts) with Posts based on Jekyll
+----------------------------------------------------
 
-Front matter is a snippet of YAML which sits between two triple-dashed lines at the top of a file. Front matter is used to set variables for the page,
+Jekyll supports Markdown as well as HTML for pages; we can use it to construct layouts. Layouts are templates that wrap around your content 
 
-Jekyll supports Markdown as well as HTML for pages; we can use it to construct layouts.
-Layouts are templates that wrap around your content 
+## Git Branches:
 
-Data file usage
+1. master
+2. gh-pages: gh-pages A special branch that is published on the web (hosting websites on GitHub). 
 
-YAML is a format that’s common in the Ruby ecosystem. You’ll use it to store an array of navigation items each with a name and link.
+## What has been implemented
 
-You could use a standard CSS file for styling, we’re going to take it a step further by using Sass. Sass is a fantastic extension to CSS baked right into Jekyll.
+* Navigation
+* Liquid as the templating language
+* Front matter used to set variables for the page
+* Use of layouts and include files
+* Data file usage - Use YAML to store an array of navigation items each with a name and link.
+* Use of Sass - A fantastic extension to CSS baked right into Jekyll.
 
-References:
-https://jekyllrb.com/docs/step-by-step/01-setup/
+To test the site locally:
+
+From the root of project run the commands:
+
+`jekyll serve`
+
+<hr>
+
+## References
+
+1. [jekyllrb](https://jekyllrb.com/docs/step-by-step/01-setup/)
+2. [w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_dividers)
